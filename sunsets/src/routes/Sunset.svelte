@@ -42,7 +42,7 @@ function formatSunsetTime(unixTimestamp) {
   });
 </script>
 <main>
-    <h1>Congrats you got the BOOTY!</h1>
+    <h1>Sunset</h1>
     <div class="sunset" id="temp"></div>
     <div>
       {#if $sunsetTime}
@@ -73,4 +73,12 @@ function formatSunsetTime(unixTimestamp) {
       position: relative;
       width: 200px;
     }
+
+    @media only screen and (max-width: 600px) {
+    main{
+      background-image: url("../Animation - 1710961834840.gif");
+      width: 100%;
+      height: 100%;
+    }
+}
   </style>

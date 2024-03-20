@@ -1,6 +1,7 @@
 <main>
     <h1>Sunny Buns</h1>
-    <a href="/sunset"><button>Get that BOOTY</button></a>
+    <a href="/sunset"><button>Get Started</button></a>
+    <!-- <p>ngayong</p> -->
   </main>
   
   <style>
