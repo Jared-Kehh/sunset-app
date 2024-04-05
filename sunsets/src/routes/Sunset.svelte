@@ -40,6 +40,7 @@ function formatSunsetTime(unixTimestamp) {
     // Handle any errors that occurred during the fetch
     console.error('There was a problem with the fetch operation:', error);
   });
+
 </script>
 <main>
     <h1>Sunset</h1>
